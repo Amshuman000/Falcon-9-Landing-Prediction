@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!-- saved from url=(0012)about:srcdoc -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css">
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css">
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <style>#map_4e7d3648da8eb30cb02811ab0de9b4d4 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body data-new-gr-c-s-check-loaded="14.1113.0" data-gr-ext-installed="">
+    
+    
+    <div class="folium-map leaflet-container leaflet-touch leaflet-retina leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" id="map_4e7d3648da8eb30cb02811ab0de9b4d4" tabindex="0"><div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(0px, 0px, 0px);"><div class="leaflet-pane leaflet-tile-pane"><div class="leaflet-layer " style="z-index: 1; opacity: 1;"><div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 17; transform: translate3d(211px, 245px, 0px) scale(0.5);"></div><div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 18; transform: translate3d(141px, 163px, 0px) scale(1);"><img alt="" role="presentation" src="https://b.tile.openstreetmap.org/5/7/12.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(4px, -158px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://c.tile.openstreetmap.org/5/8/12.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(260px, -158px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://c.tile.openstreetmap.org/5/7/13.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(4px, 98px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://a.tile.openstreetmap.org/5/8/13.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(260px, 98px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://a.tile.openstreetmap.org/5/7/11.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(4px, -414px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://b.tile.openstreetmap.org/5/8/11.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(260px, -414px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://a.tile.openstreetmap.org/5/6/12.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-252px, -158px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://a.tile.openstreetmap.org/5/9/12.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(516px, -158px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://b.tile.openstreetmap.org/5/6/13.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-252px, 98px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://b.tile.openstreetmap.org/5/9/13.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(516px, 98px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://a.tile.openstreetmap.org/5/7/14.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(4px, 354px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://b.tile.openstreetmap.org/5/8/14.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(260px, 354px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://c.tile.openstreetmap.org/5/6/11.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-252px, -414px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://c.tile.openstreetmap.org/5/9/11.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(516px, -414px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://c.tile.openstreetmap.org/5/6/14.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-252px, 354px, 0px); opacity: 1;"><img alt="" role="presentation" src="https://c.tile.openstreetmap.org/5/9/14.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(516px, 354px, 0px); opacity: 1;"></div></div></div><div class="leaflet-pane leaflet-shadow-pane"></div><div class="leaflet-pane leaflet-overlay-pane"><svg pointer-events="none" class="leaflet-zoom-animated" width="1039" height="623" viewBox="-87 -52 1039 623" style="transform: translate3d(-87px, -52px, 0px);"><g><path class="leaflet-interactive" stroke="#d35400" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#d35400" fill-opacity="0.2" fill-rule="evenodd" d="M284.331299428673,324.3603020680325a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0 "></path></g></svg></div><div class="leaflet-pane leaflet-marker-pane"><div class="leaflet-marker-icon empty leaflet-zoom-animated leaflet-interactive" tabindex="0" style="margin-left: 0px; margin-top: 0px; width: 20px; height: 20px; transform: translate3d(285px, 324px, 0px); z-index: 324;"><div style="font-size: 12; color:#d35400;"><b>NASA JSC</b></div></div></div><div class="leaflet-pane leaflet-tooltip-pane"></div><div class="leaflet-pane leaflet-popup-pane"></div><div class="leaflet-proxy leaflet-zoom-animated" style="transform: translate3d(2080.46px, 3326.04px, 0px) scale(16);"></div></div><div class="leaflet-control-container"><div class="leaflet-top leaflet-left"><div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="http://localhost:8888/notebooks/spaceX.ipynb#" title="Zoom in" role="button" aria-label="Zoom in">+</a><a class="leaflet-control-zoom-out" href="http://localhost:8888/notebooks/spaceX.ipynb#" title="Zoom out" role="button" aria-label="Zoom out">−</a></div></div><div class="leaflet-top leaflet-right"></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-right"><div class="leaflet-control-attribution leaflet-control"><a href="http://leafletjs.com/" title="A JS library for interactive maps">Leaflet</a></div></div></div></div>
+
+<script>
+    
+    
+    
+        var bounds = null;
+    
+
+    var map_4e7d3648da8eb30cb02811ab0de9b4d4 = L.map(
+        'map_4e7d3648da8eb30cb02811ab0de9b4d4', {
+        center: [29.559684888503615, -95.0830971930759],
+        zoom: 10,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_8caf6d46ed19e05b9b31f20439e5b599 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_4e7d3648da8eb30cb02811ab0de9b4d4);
+    
+
+            var circle_5a47feef02e9bb1ba00c0b626bb3f3cd = L.circle(
+                [29.559684888503615, -95.0830971930759],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d35400",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d35400",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1000,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4e7d3648da8eb30cb02811ab0de9b4d4);
+            
+    
+            var popup_d97be3e6504e64c18c7c42b90b3aae31 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d9e53c1d51ac8697167efd240dfb448c = $(`<div id="html_d9e53c1d51ac8697167efd240dfb448c" style="width: 100.0%; height: 100.0%;">NASA Johnson Space Center</div>`)[0];
+                popup_d97be3e6504e64c18c7c42b90b3aae31.setContent(html_d9e53c1d51ac8697167efd240dfb448c);
+            
+
+            circle_5a47feef02e9bb1ba00c0b626bb3f3cd.bindPopup(popup_d97be3e6504e64c18c7c42b90b3aae31)
+            ;
+
+            
+        
+    
+        var marker_2d8bd5ce35de5edd7070bec24c95516f = L.marker(
+            [29.559684888503615, -95.0830971930759],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_4e7d3648da8eb30cb02811ab0de9b4d4);
+        
+    
+
+                var div_icon_086044b03035a679400779a2badcdcc2 = L.divIcon({
+                    iconSize: [20,20],
+                    iconAnchor: [0,0],
+                    
+                    className: 'empty',
+                    html: '<div style="font-size: 12; color:#d35400;"><b>NASA JSC</b></div>',
+                    });
+                marker_2d8bd5ce35de5edd7070bec24c95516f.setIcon(div_icon_086044b03035a679400779a2badcdcc2);
+            
+</script>
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+  div.grammarly-desktop-integration {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+  }
+
+  div.grammarly-desktop-integration:before {
+    content: attr(data-content);
+  }
+</style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
